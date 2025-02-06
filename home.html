@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Hub - Empowering Student Entrepreneurs</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body and Global Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #FF9933, #FFFFFF, #138808);
+      color: black;
+      line-height: 1.6;
+    }
+
+    /* Header Section */
+    header {
+      position: sticky;
+      top: 0;
+      background-color: #FF9933;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+    }
+
+    header nav ul {
+      display: flex;
+      list-style: none;
+    }
+
+    header nav ul li {
+      margin: 0 15px;
+    }
+
+    header nav ul li a {
+      color: black;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      transition: color 0.3s, transform 0.2s;
+    }
+
+    header nav ul li a:hover {
+      color: #138808;
+      transform: scale(1.1);
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #FF9933, #FFFFFF, #138808);
+      color: black;
+      text-align: center;
+      padding: 120px 20px;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .hero h1 {
+      font-size: 45px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+
+    .hero .stable-logo {
+      width: 220px;
+      margin-bottom: 20px;
+    }
+
+    /* Section Styles */
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+      background: white;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+      width: 80%;
+      color: black;
+    }
+
+    .section h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+      color: #138808;
+    }
+
+    /* Interactive Button */
+    .interactive-button {
+      background-color: #FF9933;
+      color: black;
+      padding: 12px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .interactive-button:hover {
+      background-color: #138808;
+      transform: scale(1.1);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #138808;
+      color: black;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    footer .social-links a {
+      margin: 0 10px;
+      color: black;
+      text-decoration: none;
+      font-size: 20px;
+      transition: color 0.3s;
+    }
+
+    footer .social-links a:hover {
+      color: #FF9933;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#top-startups">Top Startups</a></li>
+        <li><a href="#certificate">Certificate</a></li>
+        <li><a href="angel.html">Angel Investors</a></li>
+        <li><a href="scheme.html">Government Schemes</a></li>
+        <li><a href="#tax-free">Tax-Free</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Empowering Student Entrepreneurs</h1>
+    <img src="logo.png" alt="Startup Hub Logo" class="stable-logo">
+    <p>Your one-stop platform for startup guidance, mentorship, and funding</p>
+  </section>
+
+  <!-- Top Startups in India Section -->
+  <section id="top-startups" class="section">
+    <h2>Top Startups in India</h2>
+    <ul>
+      <li>Sunfox Technologies - <strong>CEO:</strong> Rajat Jain</li>
+      <li>In A Can - <strong>CEO:</strong> Ashish Bhatia</li>
+      <li>Find Your Kicks India - <strong>CEO:</strong> Ankur Nagpal</li>
+      <li>Skippi Pops - <strong>CEO:</strong> Ravi Kabra</li>
+      <li>Jain Shikanji - <strong>CEO:</strong> Aman Jain</li>
+      <li>Nomad Food Project - <strong>CEO:</strong> Aditya Rai</li>
+      <li>Tweek Labs - <strong>CEO:</strong> Karan Ahuja</li>
+      <li>Wakao Foods - <strong>CEO:</strong> Sairaj Dhond</li>
+      <li>Humpy A2 - <strong>CEO:</strong> Gaurav Thakur</li>
+      <li>Quirky Naari - <strong>CEO:</strong> Richa Bhatt</li>
+      <li>Annie (Thinkerbell Labs) - <strong>CEO:</strong> Aman Srivastava</li>
+    </ul>
+  </section>
+
+  <!-- Top Angel Investors -->
+  <section id="angel-investors" class="section">
+    <h2>Top Angel Investors</h2>
+    <p>Connect with top angel investors who are actively funding promising startups.</p>
+    <button class="interactive-button" onclick="window.location.href='angel.html'">Explore Angel Investors</button>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Startup Hub | All Rights Reserved</p>
+    <div class="social-links">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+    </div>
+  </footer>
+</body>
+</html>
