@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Hub - Empowering Student Entrepreneurs</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body and Global Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #FF9933, #FFFFFF, #138808);
+      color: black;
+      line-height: 1.6;
+    }
+
+    /* Header Section */
+    header {
+      position: sticky;
+      top: 0;
+      background-color: #FF9933;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+    }
+
+    header nav ul {
+      display: flex;
+      list-style: none;
+    }
+
+    header nav ul li {
+      margin: 0 15px;
+    }
+
+    header nav ul li a {
+      color: black;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      transition: color 0.3s, transform 0.2s;
+    }
+
+    header nav ul li a:hover {
+      color: #138808;
+      transform: scale(1.1);
+    }
+
+    /* Section Styles */
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+      background: white;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+      width: 80%;
+      color: black;
+    }
+
+    .section h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+      color: #138808;
+    }
+
+    /* Investor Section */
+    .investor {
+      background-color: rgba(255, 255, 255, 0.9);
+      margin: 20px auto;
+      padding: 20px;
+      width: 90%;
+      max-width: 600px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .investor:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .investor img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+
+    .investor-details {
+      flex: 1;
+    }
+
+    .investor h2 {
+      font-size: 1.5rem;
+      color: #FF9933;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    .investor p {
+      margin: 5px 0;
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #138808;
+      color: black;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#angel-investors">Angel Investors</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="angel-investors" class="section">
+    <h2>Top Angel Investors</h2>
+    <div class="investor">
+      <img src="Sanjeev.jpg" alt="Sanjeev Bikhchandani">
+      <div class="investor-details">
+        <h2>Sanjeev Bikhchandani</h2>
+        <p><strong>Role:</strong> Founder – Info Edge</p>
+        <p><strong>Domains:</strong> Internet Services, Education, HR Tech</p>
+      </div>
+    </div>
+    <div class="investor">
+      <img src="Ashish_Goyal.jpg" alt="Ashish Goyal">
+      <div class="investor-details">
+        <h2>Ashish Goyal</h2>
+        <p><strong>Role:</strong> Co-founder – EarlySalary</p>
+        <p><strong>Domains:</strong> Fintech, Consumer Lending</p>
+      </div>
+    </div>
+    <div class="investor">
+      <img src="anand.jpg" alt="Anand Ladsariya">
+      <div class="investor-details">
+        <h2>Anand Ladsariya</h2>
+        <p><strong>Role:</strong> Founder – Everest Flavours</p>
+        <p><strong>Domains:</strong> Consumer Internet, Tech, Startups</p>
+      </div>
+    </div>
+    <div class="investor">
+      <img src="tondon.jpg" alt="Sandeep Tandon">
+      <div class="investor-details">
+        <h2>Sandeep Tandon</h2>
+        <p><strong>Role:</strong> Co-founder – FreeCharge</p>
+        <p><strong>Domains:</strong> Fintech, Healthcare, Education</p>
+      </div>
+    </div>
+    <div class="investor">
+      <img src="sachin.jpg" alt="Sachin Bansal">
+      <div class="investor-details">
+        <h2>Sachin Bansal</h2>
+        <p><strong>Role:</strong> Co-founder – Flipkart</p>
+        <p><strong>Domains:</strong> SaaS, Internet Services, Analytics & AI</p>
+      </div>
+    </div>
+    <div class="investor">
+      <img src="gokul.jpg" alt="Gokul Rajaram">
+      <div class="investor-details">
+        <h2>Gokul Rajaram</h2>
+        <p><strong>Role:</strong> Caviar Lead – Door Dash, Founder – Chai Labs & Flight.vc</p>
+        <p><strong>Domains:</strong> SaaS, Internet Services, Analytics & AI</p>
+      </div>
+    </div>
+    <div class="investor">
+      <img src="ratan.jpg" alt="Ratan Tata">
+      <div class="investor-details">
+        <h2>Ratan Tata</h2>
+        <p><strong>Role:</strong> Ex-Chairman – Tata Industries</p>
+        <p><strong>Domains:</strong> Multiple Industries</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Startup Hub | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
